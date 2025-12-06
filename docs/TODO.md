@@ -1,7 +1,7 @@
 - [ ] Client side rendering
 - [ ] Server side rendering
 - [ ] Static site generation
-- [ ] Incremental static generation (ISR)
+- [X] Incremental static generation (ISR)
 - [ ] Caching mechanisms, revalidate
 - [ ] Routing mechanisms
 - [ ] Hydration mechanisms
