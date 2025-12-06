@@ -7,11 +7,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Image } from "@mantine/core";
 import { getArticles } from "./api/get-articles/get-articles";
 
 const ArticlesPage: React.FC = async () => {
   const response = await getArticles();
   const articles = response?.articles;
+
+  console.log(JSON.stringify(articles));
 
   return (
     <div className="p-8 dark:bg-black">
@@ -23,7 +26,10 @@ const ArticlesPage: React.FC = async () => {
           <Card key={article.documentId} className="w-full m-4">
             <CardHeader>
               <CardTitle>{article.title}</CardTitle>
-              <CardDescription>{article.description}</CardDescription>
+              <CardDescription>
+                {article.description}
+                <Image src={article.cover.url} alt={article.cover.caption} />
+              </CardDescription>
               {/* <CardAction>Card Action</CardAction> */}
             </CardHeader>
             <CardContent>

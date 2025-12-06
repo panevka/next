@@ -13,6 +13,10 @@ export const getArticles = async (): Promise<ArticlesResponse | undefined> => {
           createdAt
           updatedAt
           publishedAt
+          cover {
+            url
+            caption
+          }
         }
       }
     `,
@@ -34,6 +38,10 @@ type Article = {
   createdAt: string;
   updatedAt: string;
   publishedAt: string;
+  cover: {
+    url: string;
+    caption: string;
+  };
 };
 
 type Meta = {
