@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 type TypographyVariant =
   | "h1"
   | "h2"
