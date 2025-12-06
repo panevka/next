@@ -10,6 +10,8 @@ import {
 import { Image } from "@mantine/core";
 import { getArticles } from "./api/get-articles/get-articles";
 
+export const revalidate = 60; // revalidate every 24 hours
+
 const ArticlesPage: React.FC = async () => {
   const response = await getArticles();
   const articles = response?.articles;
