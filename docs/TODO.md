@@ -1,0 +1,29 @@
+- [ ] Client side rendering
+- [ ] Server side rendering
+- [ ] Static site generation
+- [ ] Incremental static generation (ISR)
+- [ ] Caching mechanisms, revalidate
+- [ ] Routing mechanisms
+- [ ] Hydration mechanisms
+- [ ] CSS Modules
+- [ ] Meta-data handling
+	- [ ] Meta data generation
+- [ ] API Routes
+- [ ] Serverless functions
+- [ ] Image optimization
+- [ ] CDN caching
+- [ ] Middleware
+- [ ] Authentication and Authorization
+- [ ] Headless CMS integration (Payload CMS, Strapi, etc.)
+- [ ] Streaming, Suspense, and React 18 features
+- [ ] App router 
+- [ ] Custom hooks
+- [ ] Error handling & UI loading states
+- [ ] Framer Motion
+- [ ] Tailwind CSS
+- [ ] Radix UI / Shadcn UI
+- [ ] Script optimization (next/script)
+- [ ] Code splitting and lazy loading
+- [ ] Server Components vs Client Components
+- [ ] API route protection (authentication, rate limiting)
+- [ ] GraphQL
