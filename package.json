@@ -23,6 +23,7 @@
     "@mantine/nprogress": "^8.3.9",
     "@mantine/spotlight": "^8.3.9",
     "@mantine/tiptap": "^8.3.9",
+    "@payloadcms/db-postgres": "^3.67.0",
     "@payloadcms/db-sqlite": "^3.67.0",
     "@payloadcms/next": "^3.67.0",
     "@payloadcms/richtext-lexical": "^3.67.0",
